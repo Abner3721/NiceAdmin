@@ -1,0 +1,127 @@
+.el-input .el-input__inner {
+    line-height: 29px;
+}
+
+.datetime-picker {
+    height: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.el-divider__text.is-center {
+    transform: translateX(-50%) translateY(-62%);
+}
+
+.el-menu {
+    user-select: none;
+} 
+
+.el-card {
+    border: none;
+}
+.el-card__header {
+    border-bottom: 1px solid var(--color-sub-4);
+}
+.el-textarea__inner {
+    padding: 5px 11px;
+}
+
+.el-overlay-dialog {
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #eaeaea;
+        border-radius: var(--el-border-radius-base);
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    &:hover {
+        &::-webkit-scrollbar-thumb:hover {
+            background: #c8c9cc;
+        }
+    }
+}
+.ba-operate-dialog .el-dialog__header .el-icon,
+.ba-operate-dialog .el-dialog__header .el-icon svg{
+width: 1.8rem;
+height: 1.8rem;
+}
+.el-timeline-item__node--normal{
+    left: 0;
+}.el-timeline-item__tail{
+    left: 5px;
+}
+.ba-operate-dialog  .el-scrollbar__view{
+    overflow-x: hidden;
+}
+.el-table {
+    --el-table-border-color: transparent;
+    margin: 0 15px;
+    width: calc(100% - 30px)!important;
+    background-color: transparent;
+}  
+.table-operate-text{
+    padding-right: 5px;
+}
+input:-webkit-autofill { box-shadow: 0 0 0px 1000px white inset !important;}
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected { 
+transition: background-color 1000s ease-out 0.5s;
+}
+.logininput  .el-input__wrapper{
+    padding: 0 15px 5px 0!important;
+    box-shadow: none!important;
+    border-bottom: 1px solid var(--el-input-border-color);
+    border-radius: 0;
+}
+.logininput  .el-input__wrapper input{
+    background-color: transparent!important;
+}
+.el-form-item__error{
+    font-size: 10px;
+}
+.el-checkbox .el-checkbox__label{
+    font-size: 12px;
+}.el-image__inner{vertical-align:top;width:auto;margin: 0 auto;display: block;}
+.el-timeline-item__node--large{
+    left: -1px!important;
+}.el-image__error{
+    line-height: 16px;
+}.el-pagination{
+    padding: 2px 0;
+}
+.el-pagination.is-background .el-pagination__sizes.is-last{
+    margin-left:0 ;
+} 
+.el-table tr{
+    background: transparent;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell{
+    background-color: transparent;
+}
+.el-table--enable-row-hover .el-table__body tr>td.el-table__cell{ 
+    background-color: transparent;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{ 
+    background-color: #fff!important;
+}
+.el-table thead th.el-table__cell{
+    background-color: #f1f1f1;
+}
+
+.dashcard .el-card__header{
+    color: #494A66;
+font-weight: 700;
+font-size: 18px;
+
+} 
+.el-select .el-input__suffix{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+.el-dialog.is-fullscreen .el-input,
+.el-dialog.is-fullscreen .el-textarea{
+    max-width:600px!important;
+}   

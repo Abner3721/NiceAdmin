@@ -1,0 +1,15 @@
+export default {
+	"id": "id",
+	"pid": "pid",
+	"title": "title",
+	"imgurl": "imgurl",
+	"keyword": "keyword",
+	"description": "description",
+	"weigh": "weigh",
+	"status": "status",
+	"status 0": "status 0",
+	"status 1": "status 1",
+	"createtime": "createtime",
+	"updatetime": "updatetime",
+	"quick Search Fields": "id",
+}

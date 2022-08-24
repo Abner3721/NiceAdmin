@@ -1,0 +1,83 @@
+.block-loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9990;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.block-loading .loadSurf {
+    width: 89px;
+    height: 89px;
+    background: url(../assets/lin1.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.block-loading .loadMain {
+    -webkit-animation-name: loadMove;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: loadMove;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -o-animation-name: loadMove;
+    -o-animation-duration: 1.5s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+    -ms-animation-name: loadMove;
+    -ms-animation-duration: 1.5s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear
+}
+
+.block-loading .loadAnim {
+    width: 89px;
+    height: 89px;
+    background: url(../assets/lin2.png) no-repeat;
+    background-size: cover
+}
+
+@-webkit-keyframes loadMove {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes loadMove {
+    0% {
+        -moz-transform: rotate(0deg)
+    }
+
+    100% {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes loadMove {
+    0% {
+        -o-transform: rotate(0deg)
+    }
+
+    100% {
+        -o-transform: rotate(360deg)
+    }
+}
+
+@-ms-keyframes loadMove {
+    0% {
+        -ms-transform: rotate(0deg)
+    }
+
+    100% {
+        -ms-transform: rotate(360deg)
+    }
+}

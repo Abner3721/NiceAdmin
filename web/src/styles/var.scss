@@ -1,0 +1,138 @@
+ 
+$--color-white: #ffffff !default;
+$--color-primary: #2D4EF5!default;
+$--color-primary-sub-1: mix($--color-white, $--color-primary, 10%) !default;
+$--color-primary-sub-2: mix($--color-white, $--color-primary, 20%) !default;
+$--color-primary-sub-3: mix($--color-white, $--color-primary, 30%) !default;
+$--color-primary-sub-4: mix($--color-white, $--color-primary, 40%) !default;
+$--color-primary-sub-5: mix($--color-white, $--color-primary, 50%) !default;
+$--color-primary-sub-6: mix($--color-white, $--color-primary, 60%) !default;
+$--color-primary-sub-7: mix($--color-white, $--color-primary, 70%) !default;
+$--color-primary-sub-8: mix($--color-white, $--color-primary, 80%) !default;
+$--color-primary-sub-9: mix($--color-white, $--color-primary, 90%) !default;
+
+:root {
+    --color-primary: #{$--color-primary}; // 主色
+    --color-basic-white: #ffffff; 
+    --el-color-primary: #2D4EF5;
+    /* 辅助色 */
+    --el-color-success: #40C5D6; // Success
+    --el-color-warning: #F1A153; // Warning
+    --el-color-danger: #FF6C66; // Danger
+    --el-color-info: #94979C; // Info
+
+    /* 无彩色 */
+    --color-text-primary: #20202C; // 主要文本
+    --color-regular: #444452; // 普通文本
+    --color-secondary: #94979C; // 次要文本
+    --color-placeholder: #c0c4cc; // 占位文本
+
+    /* 主色辅助色 */
+    --el-color-primary-sub-0: #2D4EF5;
+    --el-color-primary-sub-1: #{$--color-primary-sub-1};
+    --el-color-primary-sub-2: #{$--color-primary-sub-2};
+    --el-color-primary-sub-3: #{$--color-primary-sub-3};
+    --el-color-primary-sub-4: #{$--color-primary-sub-4};
+    --el-color-primary-sub-5: #{$--color-primary-sub-5};
+    --el-color-primary-sub-6: #{$--color-primary-sub-6};
+    --el-color-primary-sub-7: #{$--color-primary-sub-7};
+    --el-color-primary-sub-8: #{$--color-primary-sub-8};
+    --el-color-primary-sub-9: #{$--color-primary-sub-9};
+
+    /* 辅助色的辅助色 */
+    // Success
+    --color-success-sub-1: #e1f3d8;
+    --color-success-sub-2: #f0f9eb;
+    // Warning
+    --color-warning-sub-1: #faecd8;
+    --color-warning-sub-2: #fdf6ec;
+    // Danger
+    --color-danger-sub-1: #fde2e2;
+    --color-danger-sub-2: #fef0f0;
+    // Info
+    --color-info-sub-1: #e9e9eb;
+    --color-info-sub-2: #f4f4f5;
+
+    /* 无彩色的辅助色 */
+    --color-sub-1: #dcdfe6; // 辅助颜色1
+    --color-sub-2: #e4e7ed; // 辅助颜色2
+    --color-sub-3: #ebeef5; // 辅助颜色3
+    --color-sub-4: #f2f6fc; // 辅助颜色4
+    --color-bg-1: #fafafa;
+    --color-bg-2: #fcfcfc;
+
+    /* 杂项 */
+    // 后台主体左右间距
+    --main-space: 16px; 
+    --el-menu-active-color: #2d4ef5!important;
+}  
+.el-button {
+    --el-button-font-weight: var(--el-font-weight-primary);
+    --el-button-border-color: var(--el-border-color);
+    --el-button-bg-color: transparent;
+    --el-button-text-color: var(--el-text-color-regular);
+    --el-button-disabled-text-color: var(--el-disabled-text-color);
+    --el-button-disabled-bg-color: transparent;
+    --el-button-disabled-border-color: var(--el-border-color-light);
+    --el-button-divide-border-color: rgba(255, 255, 255, 0.5);
+    --el-button-hover-text-color: var(--el-color-primary);
+    --el-button-hover-bg-color: var(--el-color-primary-sub-9);
+    --el-button-hover-border-color: var(--el-color-primary-sub-7);
+    --el-button-active-text-color: var(--el-button-hover-text-color);
+    --el-button-active-border-color: var(--el-color-primary);
+    --el-button-active-bg-color: var(--el-button-hover-bg-color);
+}
+.el-button--primary {
+    --el-button-text-color: var(--el-color-white);
+    --el-button-bg-color: var(--el-color-primary);
+    --el-button-border-color: var(--el-color-primary);
+    --el-button-hover-text-color: var(--el-color-white);
+    --el-button-hover-link-text-color: var(--el-color-primary-sub-5);
+    --el-button-hover-bg-color: var(--el-color-primary-sub-3);
+    --el-button-hover-border-color: var(--el-color-primary-sub-3);
+    --el-button-active-bg-color: var(--el-color-primary-sub-2);
+    --el-button-active-border-color: var(--el-color-primary-sub-2);
+    --el-button-disabled-text-color: var(--el-color-white);
+    --el-button-disabled-bg-color: var(--el-color-primary-sub-5);
+    --el-button-disabled-border-color: var(--el-color-primary-sub-5);
+}
+.el-button--danger {
+    --el-button-text-color: var(--el-color-white);
+    --el-button-bg-color: var(--el-color-danger);
+    --el-button-border-color: var(--el-color-danger);
+    --el-button-hover-text-color: var(--el-color-white);
+    --el-button-hover-link-text-color: var(--el-color-danger-light-5);
+    --el-button-hover-bg-color: var(--el-color-danger-light-3);
+    --el-button-hover-border-color: var(--el-color-danger-light-3);
+    --el-button-active-bg-color: var(--el-color-danger-dark-2);
+    --el-button-active-border-color: var(--el-color-danger-dark-2);
+    --el-button-disabled-text-color: var(--el-color-white);
+    --el-button-disabled-bg-color: var(--el-color-danger-light-5);
+    --el-button-disabled-border-color: var(--el-color-danger-light-5);
+}
+.el-button--info {
+    --el-button-text-color: var(--el-color-white);
+    --el-button-bg-color: var(--el-color-info);
+    --el-button-border-color: var(--el-color-info);
+    --el-button-hover-text-color: var(--el-color-white);
+    --el-button-hover-link-text-color: var(--el-color-info-light-5);
+    --el-button-hover-bg-color: var(--el-color-info-light-3);
+    --el-button-hover-border-color: var(--el-color-info-light-3);
+    --el-button-active-bg-color: var(--el-color-info-dark-2);
+    --el-button-active-border-color: var(--el-color-info-dark-2);
+    --el-button-disabled-text-color: var(--el-color-white);
+    --el-button-disabled-bg-color: var(--el-color-info-light-5);
+    --el-button-disabled-border-color: var(--el-color-info-light-5);
+} .el-button--primary.is-link, .el-button--primary.is-plain, .el-button--primary.is-text {
+    --el-button-text-color: var(--el-color-primary);
+    --el-button-bg-color: var(--el-color-primary-sub-9);
+    --el-button-border-color: var(--el-color-primary-sub-5);
+    --el-button-hover-text-color: var(--el-color-white);
+    --el-button-hover-bg-color: var(--el-color-primary);
+    --el-button-hover-border-color: var(--el-color-primary);
+    --el-button-active-text-color: var(--el-color-white);
+}.el-tag.el-tag--success {
+    --el-tag-bg-color: var(--el-color-success-sub-9);
+    --el-tag-border-color: var(--el-color-success-light-8);
+    --el-tag-hover-color: var(--el-color-success);
+}

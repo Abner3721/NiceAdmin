@@ -1,0 +1,15 @@
+export default {
+	"id": "id",
+	"pid": "上级菜单",
+	"title": "分类名称",
+	"imgurl": "图片",
+	"keyword": "关键词",
+	"description": "描述",
+	"weigh": "排序",
+	"status": "状态",
+	"status 0": "禁用",
+	"status 1": "启用",
+	"createtime": "创建时间",
+	"updatetime": "更新时间",
+	"quick Search Fields": "id",
+}

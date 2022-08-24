@@ -1,0 +1,16 @@
+export default {
+	"id": "id",
+	"positions_id": "positions_id",
+	"title": "title",
+	"description": "description",
+	"href": "href",
+	"imgurl": "imgurl",
+	"weigh": "weigh",
+	"status": "status",
+	"status 0": "status 0",
+	"status 1": "status 1",
+	"createtime": "createtime",
+	"updatetime": "updatetime",
+	"adpositions__title": "adpositions__title",
+	"quick Search Fields": "id",
+}

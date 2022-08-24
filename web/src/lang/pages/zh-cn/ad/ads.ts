@@ -1,0 +1,16 @@
+export default {
+	"id": "id",
+	"positions_id": "banner位",
+	"title": "banner标题",
+	"description": "描述",
+	"href": "banner链接",
+	"imgurl": "banner图片",
+	"weigh": "排序字段",
+	"status": "状态",
+	"status 0": "禁用",
+	"status 1": "启用",
+	"createtime": "添加时间",
+	"updatetime": "更新时间",
+	"adpositions__title": "名称",
+	"quick Search Fields": "id",
+}

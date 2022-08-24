@@ -1,0 +1,17 @@
+export default {
+    'Please enter the correct mobile number': 'Please enter the correct mobile number',
+    'Please enter the correct account': 'Please enter the correct account',
+    'Please enter the correct password': 'Please enter the correct password',
+    'Please enter the correct name': 'Please enter the correct name',
+    'Content cannot be empty': 'Content cannot be empty',
+    Required: 'Required',
+    mobile: 'Mobile Number',
+    'Account name': 'Account name',
+    password: 'password',
+    'Variable name': 'Variable Name',
+    'e-mail address': 'E-mail address',
+    date: 'Date',
+    number: 'Number',
+    integer: 'Integer',
+    'Floating point number': ' floating-point number',
+}

@@ -1,0 +1,15 @@
+export default {
+	"id": "id",
+	"title": "title",
+	"keyword": "keyword",
+	"description": "description",
+	"method": "method",
+	"name": "name",
+	"status": "status",
+	"status 0": "status 0",
+	"status 1": "status 1",
+	"weigh": "weigh",
+	"createtime": "createtime",
+	"updatetime": "updatetime",
+	"quick Search Fields": "id",
+}

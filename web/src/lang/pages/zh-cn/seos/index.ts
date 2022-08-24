@@ -1,0 +1,15 @@
+export default {
+	"id": "id",
+	"title": "优化标题",
+	"keyword": "优化关键词",
+	"description": "优化描述",
+	"method": "页面地址",
+	"name": "页面名称",
+	"status": "状态",
+	"status 0": "禁用",
+	"status 1": "启用",
+	"weigh": "排序",
+	"createtime": "添加时间",
+	"updatetime": "更新时间",
+	"quick Search Fields": "id",
+}
